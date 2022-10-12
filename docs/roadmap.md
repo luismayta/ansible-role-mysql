@@ -1,6 +1,6 @@
 <!-- Space: Projects -->
-<!-- Parent: AnsibleRoleTemplate -->
-<!-- Title: Roadmap AnsibleRoleTemplate -->
+<!-- Parent: AnsibleRoleMySQL -->
+<!-- Title: Roadmap AnsibleRoleMySQL -->
 <!-- Label: Roadmap -->
 <!-- Include: disclaimer.md -->
 <!-- Include: ac:toc -->
@@ -29,7 +29,7 @@
 
 The Roadmap is a list of all the things we're working on for the year.
 
-You can see the corresponding projects on [ansible-role-template](https://github.com/hadenlabs/ansible-role-template)
+You can see the corresponding projects on [ansible-role-mysql](https://github.com/hadenlabs/ansible-role-mysql)
 
 ## Legend
 

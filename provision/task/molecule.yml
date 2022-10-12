@@ -34,7 +34,7 @@ tasks:
     desc: create scenario molecule.
     run: once
     cmds:
-      - pipenv run molecule init scenario {{.SCENARIO}} --driver-name=ec2 --provisioner-name=ansible --role-name=ansible-role-template
+      - pipenv run molecule init scenario {{.SCENARIO}} --driver-name=ec2 --provisioner-name=ansible --role-name=ansible-role-mysql
     deps:
       - task: check
 

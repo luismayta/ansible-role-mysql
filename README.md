@@ -1,4 +1,4 @@
- <!-- Space: AnsibleRoleTemplate -->
+ <!-- Space: AnsibleRoleMySQL -->
 <!-- Title: Project -->
 
 <!--
@@ -15,11 +15,11 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/ansible-role-template)](https://github.com/hadenlabs/ansible-role-template/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/ansible-role-template/lint-code)](https://github.com/hadenlabs/ansible-role-template/actions?workflow=lint-code) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/ansible-role-mysql)](https://github.com/hadenlabs/ansible-role-mysql/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/ansible-role-mysql/lint-code)](https://github.com/hadenlabs/ansible-role-mysql/actions?workflow=lint-code) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
-# ansible-role-template
+# ansible-role-mysql
 
-ansible-role-template for infosisglobal
+ansible-role-mysql for infosisglobal
 
 ## Requirements
 
@@ -34,10 +34,7 @@ This is a list of applications that need to be installed previously to enjoy all
 # How to use this project
 
 ```bash
-ansible-galaxy install hadenlabs.ansible-role-name
-agr 'ansible-role-template' 'new-project'
-agr 'AnsibleRoleTemplate' 'NewProject'
-agr 'ansible-role-name' 'project'
+ansible-galaxy install hadenlabs.mysql
 ```
 
 Full working examples can be found in [examples](./examples) folder.
@@ -45,8 +42,8 @@ Full working examples can be found in [examples](./examples) folder.
 ## Examples
 
 <!-- Space: Projects -->
-<!-- Parent: AnsibleRoleTemplate -->
-<!-- Title: Examples AnsibleRoleTemplate -->
+<!-- Parent: AnsibleRoleMySQL -->
+<!-- Title: Examples AnsibleRoleMySQL -->
 <!-- Label: Examples -->
 <!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
@@ -58,18 +55,18 @@ To run this playbook with default settings, for install package like this:
 generate file `requirements.yml`
 
 ```yaml
-- name: hadenlabs.ansible-role-template
-  src: git+https://github.com/hadenlabs/ansible-role-template
+- name: hadenlabs.ansible-role-mysql
+  src: git+https://github.com/hadenlabs/ansible-role-mysql
   version: /main
 ```
 
 ```yaml
 - hosts: all
   roles:
-    - role: hadenlabs.ansible-role-template
+    - role: hadenlabs.ansible-role-mysql
       become: true
       vars:
-        ansible-role-template_owner: ubuntu
+        ansible-role-mysql_owner: ubuntu
 ```
 
 ## Requirements
@@ -79,14 +76,14 @@ generate file `requirements.yml`
 The default role variables in `defaults/main.yml` are:
 
 ```{.yaml}
-# defaults file for ansible-role-template
+# defaults file for ansible-role-mysql
 ```
 
 ## Help
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/hadenlabs/ansible-role-template/issues).
+File a GitHub [issue](https://github.com/hadenlabs/ansible-role-mysql/issues).
 
 ## Contributing
 
@@ -119,6 +116,6 @@ All other trademarks referenced herein are the property of their respective owne
 
 The code and styles are licensed under the LGPL-3.0 license [See project license.](LICENSE).
 
-## Don't forget to 🌟 Star 🌟 the repo if you like ansible-role-template
+## Don't forget to 🌟 Star 🌟 the repo if you like ansible-role-mysql
 
-[Your feedback is appreciated](https://github.com/hadenlabs/ansible-role-template/issues)
+[Your feedback is appreciated](https://github.com/hadenlabs/ansible-role-mysql/issues)

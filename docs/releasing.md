@@ -1,7 +1,7 @@
 <!-- Space: Projects -->
-<!-- Parent: AnsibleRoleTemplate -->
-<!-- Title: Releasing AnsibleRoleTemplate -->
-<!-- Label: AnsibleRoleTemplate -->
+<!-- Parent: AnsibleRoleMySQL -->
+<!-- Title: Releasing AnsibleRoleMySQL -->
+<!-- Label: AnsibleRoleMySQL -->
 <!-- Label: Project -->
 <!-- Label: Releasing -->
 <!-- Include: disclaimer.md -->
@@ -11,7 +11,7 @@
 
 ## Bump a new version
 
-Make a new version of ansible-role-template in the following steps:
+Make a new version of ansible-role-mysql in the following steps:
 
 ### Generate version major
 
