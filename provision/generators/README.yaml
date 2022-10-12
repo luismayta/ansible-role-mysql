@@ -5,7 +5,7 @@
 #
 
 # Name of this project
-name: ansible-role-template
+name: ansible-role-mysql
 
 # Tags of this project
 tags:
@@ -15,7 +15,7 @@ email:
   support: support@hadenlabs.com
 
 confluence:
-  space: AnsibleRoleTemplate
+  space: AnsibleRoleMySQL
   title: Project
 
 # Logo for this project
@@ -25,16 +25,16 @@ confluence:
 license: 'LGPL-3.0'
 
 # Canonical GitHub repo
-github_repo: hadenlabs/ansible-role-template
+github_repo: hadenlabs/ansible-role-mysql
 
 # Badges to display
 badges:
   - name: Latest Release
-    image: https://img.shields.io/github/release/hadenlabs/ansible-role-template
-    url: https://github.com/hadenlabs/ansible-role-template/releases
+    image: https://img.shields.io/github/release/hadenlabs/ansible-role-mysql
+    url: https://github.com/hadenlabs/ansible-role-mysql/releases
   - name: Lint
-    image: https://img.shields.io/github/workflow/status/hadenlabs/ansible-role-template/lint-code
-    url: https://github.com/hadenlabs/ansible-role-template/actions?workflow=lint-code
+    image: https://img.shields.io/github/workflow/status/hadenlabs/ansible-role-mysql/lint-code
+    url: https://github.com/hadenlabs/ansible-role-mysql/actions?workflow=lint-code
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
@@ -56,7 +56,7 @@ requirements: |-
 # Short description of this project
 description: |-
 
-  ansible-role-template for infosisglobal
+  ansible-role-mysql for infosisglobal
 
 usages:
   - docs/usage.md

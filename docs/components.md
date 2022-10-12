@@ -1,7 +1,7 @@
 <!-- Space: Projects -->
-<!-- Parent: AnsibleRoleTemplate -->
-<!-- Title: Components AnsibleRoleTemplate -->
-<!-- Label: AnsibleRoleTemplate -->
+<!-- Parent: AnsibleRoleMySQL -->
+<!-- Title: Components AnsibleRoleMySQL -->
+<!-- Label: AnsibleRoleMySQL -->
 <!-- Label: Project -->
 <!-- Label: Components -->
 <!-- Include: disclaimer.md -->

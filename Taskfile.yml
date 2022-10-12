@@ -35,7 +35,7 @@ dotenv:
   - .env
 
 vars:
-  PROJECT_NAME: ansible-role-template
+  PROJECT_NAME: ansible-role-mysql
   ORGANIZATION: hadenlabs
   REVIEWERS: luismayta
   PYTHON_VERSION: 3.9.2
