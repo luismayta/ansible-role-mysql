@@ -1,0 +1,9 @@
+---
+- name: Update postfix to the latest version (if extra repositories enabled).
+  yum: 'name=postfix state=latest enablerepo={{ mysql_enablerepo }}'
+  when: mysql_enablerepo != ""
+
+- name: Ensure MySQL packages are installed.
+  ansible.builtin.package:
+    name: '{{ _mysql_packages }}'
+    state: present

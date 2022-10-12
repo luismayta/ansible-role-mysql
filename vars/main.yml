@@ -4,5 +4,4 @@
 _root_group: root
 _mysql_packages:
   - software-properties-common
-  - python-software-properties
   - wget
