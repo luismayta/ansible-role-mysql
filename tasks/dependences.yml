@@ -5,11 +5,11 @@
 
 - name: Install mysql package dependencies
   ansible.builtin.package:
-    name: '{{ mysql_packages }}'
+    name: '{{ _mysql_dependencies }}'
     state: present
   become: true
-  register: install_mysql_packages
-  when: mysql_packages is defined
+  register: install_mysql_dependencies
+  when: _mysql_dependencies is defined
   tags:
     - install
     - apt
