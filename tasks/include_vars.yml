@@ -1,9 +1,12 @@
 ---
-- name: include os specific variables
-  include_vars: '{{ansible_os_family | lower }}.yml'
+# Variable configuration.
+- name: Include OS-specific variables.
+  include_vars: '{{ item }}'
   with_first_found:
-    - '{{ ansible_os_family | lower }}.yml'
-    - 'main.yml'
+    - files:
+        - 'vars/{{ ansible_os_family | lower }}-{{ ansible_distribution_major_version }}.yml'
+        - 'vars/{{ ansible_os_family | lower }}.yml'
+      skip: true
   tags:
     - 'mysql'
     - 'mysql-vars'
