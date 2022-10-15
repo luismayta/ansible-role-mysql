@@ -1,9 +1,0 @@
----
-- name: Create files mysql
-  become: true
-  file:
-    path: '{{ item.path }}'
-    state: '{{ item.state }}'
-    owner: '{{ item.owner }}'
-  with_items: '{{ _mysql_create_files | default({}) }}'
-  when: _mysql_create_files is defined
