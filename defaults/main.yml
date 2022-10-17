@@ -1,5 +1,6 @@
 ---
 # defaults file for mysql
+mysql_service: 'mysql'
 
 mysql_only_deploy: false
 mysql_user_home: /root

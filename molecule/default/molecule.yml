@@ -3,7 +3,6 @@ dependency:
   name: galaxy
 driver:
   name: ec2
-  region: us-east-2
 platforms:
   - name: molecule-instance
     instance_type: t2.micro
